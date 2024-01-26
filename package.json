@@ -475,6 +475,11 @@
           "type": "string",
           "default": "https://unpkg.com/mermaid/dist/mermaid.min.js",
           "description": "mermaid server."
+        },
+        "markdown-pdf.watermark": {
+          "type": "string",
+          "default": "water mark",
+          "description": "water mark"
         }
       }
     }
@@ -490,6 +495,7 @@
     "vscode-test": "^1.3.0"
   },
   "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
     "cheerio": "^0.20.0",
     "emoji-images": "^0.1.1",
     "gray-matter": "^4.0.2",
@@ -503,6 +509,7 @@
     "markdown-it-plantuml": "^1.4.1",
     "mkdirp": "^1.0.3",
     "mustache": "^4.0.1",
+    "pdf-lib": "^1.17.1",
     "puppeteer-core": "^2.1.1",
     "rimraf": "^3.0.2"
   }
